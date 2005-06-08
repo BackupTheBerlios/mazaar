@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<plugin>
+	<title>QueryStorage</title>
+	<description>Provides functions for SQL queries storage. This is very useful for managing larger
+		site projects.</description>
+	<version>1.0</version>
+	<preferences>
+		<pref key="querystorage.file" val="inc/data/QueryStorage.xml"/>
+	</preferences>
+	<type>feature</type>
+</plugin>

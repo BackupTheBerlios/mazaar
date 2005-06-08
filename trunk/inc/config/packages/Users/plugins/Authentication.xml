@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<plugin>
+	<title>Authentication</title>
+	<description>Plugin that serves user's authentication services.</description>
+	<version>1.0</version>
+	<preferences>
+		<pref key="provider" val="Cookie"/>
+		<pref key="mcrypt.alghoritm" val="rijndael-256"/>
+		<pref key="mcrypt.mode" val="ofb"/>
+		<pref key="mcrypt.key" val="mazaar"/>
+		<pref key="cookie.name" val="mazaar_userid"/>
+	</preferences>
+	<type>feature</type>
+</plugin>

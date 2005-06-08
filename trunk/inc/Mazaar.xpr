@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <lastOpenedFiles>
+            <file name="config/Mazaar.xml"/>
+            <file name="config/packages/Users/Users.xml"/>
+            <file name="config/packages/Users/plugins/Authentication.xml"/>
+            <file name="config/packages/Users/plugins/Login.xml"/>
+            <file name="config/packages/Users/plugins/Registration.xml"/>
+            <file focused="true" name="data/QueryStorage.xml"/>
+        </lastOpenedFiles>
+    </meta>
+    <projectTree name="Mazaar.xpr">
+        <folder name="config">
+            <folder name="packages">
+                <folder name="ContentProvider">
+                    <folder name="plugins">
+                        <file name="config/packages/ContentProvider/plugins/Abbr.xml"/>
+                        <file name="config/packages/ContentProvider/plugins/Blogg.xml"/>
+                        <file name="config/packages/ContentProvider/plugins/Comments.xml"/>
+                        <file name="config/packages/ContentProvider/plugins/Community.xml"/>
+                        <file name="config/packages/ContentProvider/plugins/ECatalog.xml"/>
+                        <file name="config/packages/ContentProvider/plugins/EShop.xml"/>
+                        <file name="config/packages/ContentProvider/plugins/Site.xml"/>
+                    </folder>
+                    <file name="config/packages/ContentProvider/ContentProvider.xml"/>
+                </folder>
+                <folder name="DB">
+                    <folder name="plugins">
+                        <file name="config/packages/DB/plugins/MySQL.xml"/>
+                        <file name="config/packages/DB/plugins/QueryStorage.xml"/>
+                    </folder>
+                    <file name="config/packages/DB/DB.xml"/>
+                </folder>
+                <folder name="Users">
+                    <folder name="plugins">
+                        <file name="config/packages/Users/plugins/Authentication.xml"/>
+                        <file name="config/packages/Users/plugins/Login.xml"/>
+                        <file name="config/packages/Users/plugins/Registration.xml"/>
+                    </folder>
+                    <file name="config/packages/Users/Users.xml"/>
+                </folder>
+            </folder>
+            <file name="config/Mazaar.xml"/>
+        </folder>
+        <folder name="core">
+            <file name="core/Mazaar.xsd"/>
+        </folder>
+        <folder name="data">
+            <file name="data/QueryStorage.xml"/>
+        </folder>
+    </projectTree>
+</project>

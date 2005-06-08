@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<plugin>
+	<title>Abbr</title>
+	<description>Plugin for whole site managing abbr. terms. This feature is enabled for all others
+		plugins of ContentProvider.</description>
+	<version>1.0</version>
+	<type>feature</type>
+</plugin>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<plugin>
+	<title>MySQL</title>
+	<description>Provides functions for connecting and working with MySQL databases.</description>
+	<version>1.0</version>
+	<preferences>
+		<pref key="username" val="ondrejd"/>
+		<pref key="userpass" val="morgoth"/>
+		<pref key="dbhost" val="localhost"/>
+		<pref key="dbname" val="mazaar"/>
+	</preferences>
+	<type>driver</type>
+</plugin>

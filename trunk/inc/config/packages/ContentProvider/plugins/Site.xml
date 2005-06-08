@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<plugin>
+	<title>Site</title>
+	<description>Plugin for managing/displaying content of normal sites.</description>
+	<version>1.0</version>
+	<type>content</type>
+</plugin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mazaar>
+	<site id="site">
+		<title>Mazaar Homepage</title>
+		<description>Homepage of Mazaar, complete framework for site building.</description>
+		<version>1.0</version>
+	</site>
+	<preferences id="preferences">
+		<pref key="debug" val="false"/>
+		<pref key="debug.showexceptions" val="true"/>
+		<pref key="xmlfunctor.strict" val="true"/>
+		<pref key="preferences.dir" val="inc/config"/>
+		<pref key="packages.dir" val="inc/packages"/>
+		<pref key="templater.buffering" val="true"/>
+		<pref key="templater.buffer.size" val="2048000"/>
+		<pref key="templater.folder" val="templates/"/>
+		<pref key="templater.binding.glue" val="##"/>
+	</preferences>
+	<packages id="packages">
+		<package title="DB" enabled="true"/>
+		<package title="Users" enabled="false"/>
+		<package title="ContentProvider" enabled="false"/>
+	</packages>
+</mazaar>

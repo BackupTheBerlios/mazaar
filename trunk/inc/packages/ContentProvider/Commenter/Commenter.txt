@@ -1,0 +1,2 @@
+Commenter provides comments pool for any other content item (captions, pages etc.). This 
+package is not for standalone use it only extends other ContentProvider plugins.

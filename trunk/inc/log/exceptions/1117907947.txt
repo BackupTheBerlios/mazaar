@@ -1,0 +1,13 @@
+Date: 04.06.2005 19:59:07 
+Server-name: localhost (127.0.0.1:80) 
+Remote-address: 127.0.0.1 
+Remote-agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8b2) Gecko/20050523 Firefox/1.0+ 
+Exception: Unable to load config file  
+File: /opt/lampp/htdocs/Mazaar/inc/core/Preferences.inc.php 
+Line: 56 
+
+TRACE
+#0 /opt/lampp/htdocs/Mazaar/inc/core/Preferences.inc.php(56): Preferences::__construct()
+#1 /opt/lampp/htdocs/Mazaar/inc/Mazaar.inc(71): MazaarPreferences->__construct(NULL)
+#2 /opt/lampp/htdocs/Mazaar/index.php(8): Mazaar->__construct()
+#3 {main}

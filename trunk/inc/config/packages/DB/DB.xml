@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+	<title>DB</title>
+	<description>Provide database servicies for other plugins.</description>
+	<version>1.0</version>
+	<dependencies/>
+	<preferences>
+		<pref key="provider" val="MySQL"/>
+		<pref key="querystorage.provider" val="QueryStorage"/>
+	</preferences>
+	<plugins>
+		<plugin title="QueryStorage" enabled="true"/>
+		<plugin title="MySQL" enabled="true"/>
+	</plugins>
+</package>

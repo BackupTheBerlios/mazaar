@@ -1,0 +1,15 @@
+#logout {
+position:fixed;
+top:330px;
+right:0px;
+width:180px;
+padding:0px 10px 0px 10px;
+width:180px;
+background:#f66;
+-moz-border-radius:12px 0px 0px 12px;
+}
+
+#logout p{font-weight:bold;}
+
+#logout a{color:#333;font-weight:normal;}
+#logout a:hover{background:#fff;color:#f60;}

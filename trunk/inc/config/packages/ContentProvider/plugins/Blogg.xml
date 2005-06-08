@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<plugin>
+	<title>Blogg</title>
+	<description>Plugin for managing/displaying content of blogg type.</description>
+	<version>1.0</version>
+	<type>content</type>
+</plugin>

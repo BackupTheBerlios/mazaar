@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import "debug.css";
+
+body{font-family:Tahoma,Verdana,Arial,sans-serif;
+background-color: #fff;}
+
+body,html,div,table,tr,td{font-size:9pt;}
+img{border:0px none;}
+
+a:link,a:visited{text-decoration:underline;color:#333;cursor:pointer;}
+a:hover{background:#f66;color:#fff;}
+a[name]{background:#fff;cursor:normal;color:#000;}
+
+td{border:1px dotted #ccc;padding:2px 2px 2px 2px;}
+
+.finished{text-decoration:line-through;color:darkblue;}
+.progress{font-weight:bold;}
+.unfinished{text-decoration:underline;color:#f30;}
+
+h1,h2,h3,h4{
+color:#000;
+}
+h1{font-size:13pt;}
+h2{font-size:12pt;}
+h3{font-size:11pt;}
+h4{font-size:10pt;}
+
+hr {
+height:1px;
+background:#f66;
+border:0px none;
+}
+
+#header {
+position:fixed;
+top:40px;
+right:0px;
+z-index:1;
+width:200px;
+height:270px;
+padding:0px 0px 0px 0px;
+background:#f66;
+-moz-border-radius:12px 0px 0px 12px;
+}
+
+#header *{padding:0px 0px 0px 10px;}
+#header span.lang{padding:3px 10px 0px 0px;float:right;}
+#header ul{list-style:none;padding:0 0 0 0px;margin:0 0 0 0px;}
+#header ul li{display:block;width:100%;padding:2px 0px 4px 30px;cursor:pointer;}
+#header ul li:hover{display:block;width:100%;background:#fff;color:#000;}
+#header ul li:hover a{color:#000;text-decoration:underline;}
+#header ul li a:hover{background:#fff;color:#f60;}
+
+h1.mazaar{
+position:fixed;
+top:0px;
+right:0px;
+z-index:1;
+color:#f66;
+font-size:16pt;
+border-bottom:1px dotted #fff;
+margin:0px 0px 0px 0px;
+padding:6px 10px 2px 0px;
+}
+
+#content{
+padding-right:220px;
+}
+
+#footer {
+width:100%;
+border-top:2px solid #f66;
+padding-top:4px;
+}

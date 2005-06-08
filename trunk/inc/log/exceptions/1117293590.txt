@@ -1,0 +1,13 @@
+Date: 28.05.2005 17:19:50 
+Server-name: localhost (127.0.0.1:80) 
+Remote-address: 127.0.0.1 
+Remote-agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8b2) Gecko/20050523 Firefox/1.0+ 
+Exception: Unable to include package file inc/packages/Auth/Auth.inc 
+File: /opt/lampp/htdocs/Mazaar/inc/Mazaar.inc 
+Line: 97 
+
+TRACE
+#0 /opt/lampp/htdocs/Mazaar/inc/Mazaar.inc(97): Mazaar::loadPackage()
+#1 /opt/lampp/htdocs/Mazaar/inc/Mazaar.inc(75): Mazaar->loadPackage(Object(SimpleXMLElement), Object(SimpleXMLElement))
+#2 /opt/lampp/htdocs/Mazaar/index.php(12): Mazaar->__construct('Mazaar', 'inc/Mazaar.xml')
+#3 {main}

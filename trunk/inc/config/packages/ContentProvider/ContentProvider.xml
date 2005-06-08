@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+	<title>ContentProvider</title>
+	<description>Provides servicies for displaying various site's content.</description>
+	<version>1.0</version>
+	<dependencies>
+		<dependency package="DB"/>
+		<dependency package="Users"/>
+	</dependencies>
+	<preferences/>
+	<plugins>
+		<plugin title="Blogg" enabled="false"/>
+		<plugin title="Site" enabled="false"/>
+		<plugin title="EShop" enabled="false"/>
+		<plugin title="ECatalog" enabled="false"/>
+		<plugin title="Gallery" enabled="false"/>
+		<plugin title="Phorum" enabled="false"/>
+		<plugin title="Wiki" enabled="false"/>
+		<plugin title="Community" enabled="false"/>
+		<plugin title="Abbr" enabled="false"/>
+		<plugin title="Comments" enabled="false"/>
+	</plugins>
+</package>

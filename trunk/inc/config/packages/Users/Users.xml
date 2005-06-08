@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+	<title>Users</title>
+	<description>Provides all what is needed to include users functionality.</description>
+	<version>1.0</version>
+	<dependencies>
+		<dependency>DB</dependency>
+	</dependencies>
+	<preferences/>
+	<plugins>
+		<plugin title="Authentication" enabled="true"/>
+		<plugin title="Login" enabled="false"/>
+		<plugin title="Registration" enabled="false"/>
+	</plugins>
+</package>

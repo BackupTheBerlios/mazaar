@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<plugin>
+	<title>Community</title>
+	<description>Plugin for managing/displaying content of cummunity based sites. It including
+		community bloggs pool, enhanced feeds functions and much more.</description>
+	<version>1.0</version>
+	<type>content</type>
+</plugin>

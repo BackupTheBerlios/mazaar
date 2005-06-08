@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<plugin>
+	<title>Comments</title>
+	<description>Plugin for whole site managing comments for all content plugins of ContentProvider.</description>
+	<version>1.0</version>
+	<type>feature</type>
+</plugin>

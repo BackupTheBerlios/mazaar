@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+<?xml-stylesheet href="admin/admin.css" type="text/css"?>
+<window id="adminMain" 
+		title="www.slam.cz - Admin. centrum" 
+		orient="vertical" 
+		xmlns:html="http://www.w3.org/1999/xhtml" 
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+		
+
+<script type="application/x-javascript" src="admin/admin.js"></script>
+  
+
+<commandset>
+  <command id="Show:News" oncommand="show('news');"/>
+  <command id="Show:Actions" oncommand="show('actions');"/>
+  <command id="Show:Media" oncommand="show('media');"/>
+  <command id="Show:Links" oncommand="show('links');"/>
+  <command id="Show:Forum" oncommand="show('forum');"/>
+  <command id="Show:Pages" oncommand="show('pages');"/>
+  <command id="Show:Players" oncommand="show('players');"/>
+  <command id="Show:Admins" oncommand="show('admins');"/>
+</commandset>
+  
+  
+<toolbox>
+  <toolbar id="nav-toolbar">
+    <toolbarbutton id="toolbarbutton-news" label="Novinky" 
+                   tooltiptext="Správce sekce Novinky." 
+                   command="Show:News" 
+                   image="admin/icons/news.gif"
+                   disabled=""/>
+    <toolbarbutton id="toolbarbutton-actions" label="Akce" 
+                   tooltiptext="Správce sekce Acke." 
+                   command="Show:Actions" 
+                   image="admin/icons/actions.gif"
+                   disabled=""/>
+    <toolbarbutton id="toolbarbutton-media" label="Média" 
+                   tooltiptext="Správce sekce Média." 
+                   command="Show:Media" 
+                   image="admin/icons/media.gif"
+                   disabled=""/>
+
+    <toolbarbutton id="toolbarbutton-links" label="Odkazy" 
+                   tooltiptext="Správce sekce Odkazy." 
+                   command="Show:Links" 
+                   image="admin/icons/links.gif"
+                   disabled=""/>
+    <toolbarbutton id="toolbarbutton-forum" label="Fórum" 
+                   tooltiptext="Správce sekce Fórum." 
+                   command="Show:Forum" 
+                   image="admin/icons/forum.gif"
+                   disabled=""/>
+    <toolbarseparator/>
+    <toolbarbutton id="toolbarbutton-pages" label="Stránky" 
+                   tooltiptext="Správce HTML stránek." 
+                   command="Show:Pages" 
+                   image="admin/icons/pages.gif"
+                   disabled=""/>
+    <toolbarseparator/>
+    <toolbarbutton id="toolbarbutton-players" label="Soutěžící" 
+                   tooltiptext="Správce soutěžících jednotlivých Slamů." 
+                   command="Show:Players" 
+                   image="admin/icons/players.gif"
+                   disabled=""/>
+    <toolbarbutton id="toolbarbutton-admins" label="Registrátoři" 
+                   tooltiptext="Registrátoři soutěžících jednotlivých Slamů." 
+                   command="Show:Admins" 
+                   image="admin/icons/admins.gif"
+                   disabled=""/>
+    <toolbarspacer flex="1"/>
+    <toolbarbutton id="toolbarbutton-help" label="Nápověda" 
+                   tooltiptext="Zobraz nápovědu" oncommand="showHelp('index','admin/help/');"
+                   image="admin/icons/help.gif"/>
+
+    <!--
+      <toolbarseparator/>
+    <toolbarbutton id="toolbarbutton-logout" label="Odhlásit" 
+                   tooltiptext="Odhlásit se z admin.centra." 
+                   command="Show:Logout" 
+                   image="admin/icons/logout.gif"/>-->
+  </toolbar>
+</toolbox>
+
+<popupset>
+  <popup id="news-popup">
+    <menuitem label="Nová" tooltiptext="Přidej novou položku." 
+              oncommand="newNew();" type="checkbox"
+              style="list-style-image:url(admin/icons/new.gif);"/>
+
+    <menuitem label="Edituj" tooltiptext="Edituj parametry vybrané položky." 
+              oncommand="editNew();" type="checkbox"
+              style="list-style-image:url(admin/icons/edit.gif);"/>
+    <menuitem label="Edituj text" tooltiptext="Edituj text vybrané položky." 
+              oncommand="editTextNew();" type="checkbox"
+              style="list-style-image:url(admin/icons/edittext.gif);"/>
+    <menuseparator/>
+    <menuitem label="Smaž" tooltiptext="Smaž vybranou položku." 
+              oncommand="deleteNew();" type="checkbox"
+              style="list-style-image:url(admin/icons/delete.gif);"/>
+    <menuseparator/>
+    <menuitem label="Nápověda" tooltiptext="Zobraz nápovědu." 
+              oncommand="showHelp('news','admin/help/');" type="checkbox" 
+              style="list-style-image:url(admin/icons/help.gif)"/>
+  </popup>  
+</popupset>
+
+<vbox flex="1">
+  <label value="Novinky:" class="page_title"/>
+
+  
+</vbox>
+
+</window>

@@ -1,0 +1,1 @@
+Slouzi k snadnemu definovani obsahu <abbr> tagu pro cely web naraz.

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QueryStorage>
+    <!-- inc/packaes/Auth/Auth.inc -->
+    <query name="verifyUser">
+        SELECT ID 
+        FROM users 
+        WHERE username = ':1' 
+        AND userpass = MD5(':2')  
+        LIMIT 1 
+    </query>
+    <!-- inc/packages/User/User.inc -->
+    <query name="loadUser">
+        SELECT * 
+        FROM users 
+        WHERE ID = ':1' 
+        LIMIT 1
+    </query>
+    <query name="saveUser">
+        SELECT * 
+        FROM users 
+        WHERE ID = ':1' 
+        LIMIT 1
+    </query>
+</QueryStorage>

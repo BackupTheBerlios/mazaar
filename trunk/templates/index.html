@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-language" content="en" />
+  <title>Mazaar</title>
+  <style type="text/css">
+  @import '../css/default/global.css';
+  </style>
+</head>
+<body>
+  <div>
+    <h1 class="mazaar">mazaar</h1>
+    <div id="header">
+      <span class="lang"><a href="##url##cs" title="Přepni do češtiny.">cs</a>, <a href="###url##en" title="Switch to English.">en</a></span>
+      <p>Welcome to <strong>mazaar</strong> framework. Here is what 
+      you can find out here.</p>
+      <h3>Contents:</h3>
+      <ul>
+        <li><a href="##url###about">Blogg/News</a></li>
+        <li><a href="##url###news">Products</a></li>
+        <li><a href="##url###changelog">Download</a></li>
+        <li><a href="##url###development_notes">Developers</a></li>
+        <li><a href="##url###licensing">Links</a></li>
+        <li><a href="##url###related_projects">About</a></li>
+      </ul>
+    </div>
+    <div id="content">
+    ##loginform##
+    <hr/>
+    <h2><a name="about">About</a></h2>
+    <p><strong>Mazaar</strong> Framework is <a href="##url###licensing">free</a> PHP 5.0 library 
+    of classes which provides wide range of tools for website 
+    building. Is amied on skilled PHP programmators who looking for 
+    some develoment tools which made their work easier.</p>
+    <p>In final state there will be tools for modeling site in 
+    <abbr title="Web Unyfied Modeling Language">WebML</abbr>, 
+    installators for packages, unifyied content managing and 
+    others.</p>
+   <p><strong>Structure</strong>: <a href="img/structure.gif" target="blank">detailed structure</a>.</p>
+    <hr/>
+    <h2><a name="news">News</a></h2>
+    <hr/>
+    <h2><a name="development_notes">Development notes</a></h2>
+    <p>Mazaar framework consists from core and extending packages. 
+    Core contains only set of classes on which you can build up 
+    you site.</p>
+    <h3>Core sources</h3>
+    <ul>
+      <li><a href="##url##show=inc/Debug.inc" class="php">Debug.inc</a> - 
+      provides simple debug servicies, </li>
+      <li><a href="##url##show=inc/Exception.inc" class="php">Exception.inc</a> - 
+      handling scripts exceptions,</li>
+      <li><a href="##url##show=inc/Preferences.inc" class="php">Preferences.inc</a> - 
+      handling Mazaar preferences,</li>
+      <li><a href="##url##show=inc/Mazaar.inc" class="php">Mazaar.inc</a> - 
+      Main file. Contains <code>Mazaar</code>, <code>Package</code> classes 
+      and their exeptions classes (<code>MazaarException</code>, 
+      <code>PackageException</code>),</li>
+      <li><a href="##url##show=inc/Mazaar.xml" class="xml">Mazaar.xml</a> - 
+      main configuration file.</li>
+    </ul>
+    <h3>Packages</h3>
+    <p>Features of Mazaar framework could be extended by additional 
+    packages, which are built up on top of <code>Package</code> class.</p>
+    <p>There are the group of generic packages which are already done. 
+    It provides common servicies for some site types.</p>
+    <h4>Generic packages</h4>
+    <ul>
+      <li><strong>Templater</strong> - 
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+      <li><strong>DB</strong>, <strong>DB_QueryStorage</strong> - 
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+      <li><strong>Auth</strong> - (uses <code>Cookie</code>). Class for 
+      authentication handling.
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+      <li><strong>User</strong> - 
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+      <li><strong>ACL</strong> - 
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+      <li><strong>Tied</strong> - same as <abbr title="Shell command.">tied</abbr> 
+      on Linux OSes.
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+      <li><strong>Abbr</strong> - proved servicies for displaying 
+      and easy managing abbrevation terms. 
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+      <li><strong>News</strong> - provides site's news services 
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+      <li><strong>Blogg</strong> - 
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+      <li><strong>Wiki</strong> - provides wiki servicies for 
+      all other content 
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+      <li><strong>Phorum</strong> - 
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+      <li><strong>ContentManager</strong> - 
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+      <li><strong>WebML</strong> - can transform 
+      <abbr title="Web Unyfied Modeling Language">WebML</abbr> language 
+      into site content.
+      [<a href="#" class="viewTest">test</a>, 
+      <a href="#" class="viewSource">sources</a>]
+      </li>
+    </ul>
+    
+    <hr/>
+    <h2><a name="licensing">Licensing</a></h2>
+    <p><strong>mazaar</strong> is distributed under the 
+    <a href="http://www.mozilla.org/MPL/">Mozilla 
+    Public License 1.1</a>.</p>
+    <hr/>
+    <h2><a name="related_projects">Related projects</a></h2>
+    <p>For development of this project were (and still are) usefull 
+    any other projects which I want in this way regard to:</p>
+    <ul>
+      <li><strong>Related projects of mine:</strong>
+        <ul>
+          <li><a href="#">XBLControls</a> - contained by ContentManager</li>
+          <li><a href="#">Rashomon</a></li>
+          <li><a href="#">DataSources Manager</a></li>
+        </ul>
+      </li>
+      <li><strong>Used PHP projects:</strong> 
+        <ul>
+          <li><a href="#">Texy</a></li>
+          <li><a href="#">Geshi</a></li>
+        </ul>
+      </li>
+      <li><strong>Used Tools and applications:</strong>
+      <ul>
+        <li><a href="http://www.mozilla.org/">Mozilla</a></li>
+        <li><a href="http://www.gnome.org/">GNOME</a></li>
+        <li><a href="http://www.ubuntulinux.org/">Ubuntu Linux</a></li>
+        <li><a href="http://www.Eclipse.org/">Eclipse IDE</a></li>
+        <li><a href="http://www.phpeclipse.org/">PHPEclipse</a></li>
+      </ul>
+      </li>
+      <li><strong>Used Technologies:</strong>
+      <ul>
+        <li><a href="http://www.php.net/">PHP</a></li>
+        <li><a href="http://www.w3.org/">XML, XSD ...</a></li>
+        <li><a href="http://www.w3.org/">CSS</a></li>
+        <li><a href="http://www.webml.org/">JavaScript</a></li>
+      </ul>
+      </li>
+    </ul>
+  </div>
+  </div>
+  <div id="footer">
+    <code>(c) 2004-2005 <a href="mailto:ondrejd@gmail.com">Ondrej Donek</a>. 
+    Mazaar is published under the 
+    <a href="http://www.mozilla.org/license">Mozilla Public License</a>. 
+    All rights reserved.</code>
+  </div>
+</body>
+</html>
